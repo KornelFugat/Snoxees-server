@@ -1,0 +1,81 @@
+[
+    {
+        "name": "Punch",
+        "class": ["damage"],
+        "type": "normal",
+        "damage": 20,
+        "multiplier": 2,
+        "accuracy": 1,
+        "ticks": 1,
+        "damageOverTime": false,
+        "sleep": false,
+        "upgrade": "Upgraded Punch",
+        "upgrade_description": "+1 base damage",
+        "description": "Simple normal attack."
+    },
+    {
+        "name": "Upgraded Punch",
+        "class": ["damage"],
+        "type": "normal",
+        "damage": 10,
+        "multiplier": 0.1,
+        "accuracy": 1,
+        "ticks": 2,
+        "damageOverTime": false,
+        "sleep": false,
+        "description": "Upgraded. Simple normal attack."
+    },
+    {
+        "name": "Small Fireball",
+        "class": ["damage"],
+        "type": "fire",
+        "damage": 11,
+        "multiplier": 0.15,
+        "accuracy": 0.9,
+        "ticks": 2,
+        "damageOverTime": false,
+        "sleep": false,
+        "upgrade": "Upgraded Small Fireball",
+        "upgrade_description": "+1 base damage",
+        "description": "Simple fire attack."
+    },
+    {
+        "name": "Upgraded Small Fireball",
+        "class": ["damage"],
+        "type": "fire",
+        "damage": 15,
+        "multiplier": 0.15,
+        "accuracy": 0.9,
+        "ticks": 1,
+        "damageOverTime": false,
+        "sleep": false,
+        "description": "Upgraded. Simple fire attack."
+    },
+    {
+        "name": "Thorns",
+        "class": ["damage"],
+        "type": "grass",
+        "damage": 12,
+        "multiplier": 0.15,
+        "accuracy": 1,
+        "ticks": 1,
+        "damageOverTime": false,
+        "sleep": false,
+        "upgrade": "Upgraded Thorns",
+        "upgrade_description": "+1 base damage",
+        "description": "Simple nature attack."
+    },
+    {
+        "name": "Upgraded Thorns",
+        "class": ["damage"],
+        "type": "grass",
+        "damage": 13,
+        "multiplier": 0.15,
+        "accuracy": 1,
+        "ticks": 1,
+        "damageOverTime": false,
+        "sleep": false,
+        "description": "Upgraded. Simple nature attack."
+
+    }
+]
